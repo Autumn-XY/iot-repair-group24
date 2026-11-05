@@ -8,6 +8,8 @@
 
 成员C GitHub用户名：待填写
 
+成员D GitHub用户名：待填写
+
 本组选定语言：Java / Python 二选一，保留一项。
 
 ## 范围
@@ -22,8 +24,9 @@
 A完成docs/requirements.md与docs/usecase.md及图文件。
 B完成docs/models.md及图文件。
 C完成一种语言的函数与docs/test-results.md。
+D负责docs/acceptance.md中的验收清单和从main下载后的复测记录，独立提交PR。
 图文件放docs/assets，保留可编辑源材料。
-三个主要PR合并后，由A另开分支整理docs/submission.md。
+四个主要PR合并后，由A另开分支整理docs/submission.md。
 
 ## 运行
 Python：进入src/python，运行python test_status_rule.py。
