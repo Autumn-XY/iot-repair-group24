@@ -1,8 +1,8 @@
 # 校园物联网设备报修实验
 
-组号：待填写
+组号：24
 
-成员A GitHub用户名：待填写
+成员A GitHub用户名：Autumn-XY
 
 成员B GitHub用户名：待填写
 
