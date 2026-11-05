@@ -24,7 +24,7 @@
 A完成docs/requirements.md与docs/usecase.md及图文件。
 B完成docs/models.md及图文件。
 C完成一种语言的函数与docs/test-results.md。
-D负责docs/acceptance.md中的验收清单和从main下载后的复测记录，独立提交PR。
+D负责docs/acceptance.md中的验收清单和从main下载后的复测记录。
 图文件放docs/assets，保留可编辑源材料。
 四个主要PR合并后，由A另开分支整理docs/submission.md。
 
