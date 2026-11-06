@@ -47,7 +47,7 @@ stateDiagram-v2
 | S4 | PENDING | 完成维修 | COMPLETED | 拒绝 | 跳级：必须先进入处理中 |
 | S5 | COMPLETED | 开始维修 | PROCESSING | 拒绝 | 回退：已完成是终态 |
 | S6 | COMPLETED | 完成维修 | COMPLETED | 拒绝 | 状态不变 |
-| S7 | PENDING | 重复开始维修 | PROCESSING | 拒绝 | 状态不变（PENDING→PENDING 属自转换，一律不允许） |
+| S7 | PENDING | 对 PENDING 工单再次发起开始维修（目标 PROCESSING） | PROCESSING | 拒绝 | 状态不变（PENDING→PENDING 属自转换，一律不允许） |
 | S8 | 任意 | 重新打开 / 取消 / 跳过处理中 | 任意 | 拒绝 | 本次业务不设这些状态与操作 |
 
 > 说明：表中只列出本次业务约定允许的两条转换 S2、S3。除 S1 的创建动作外，其余所有「当前状态→目标状态」组合（含跳级、回退、状态不变）一律拒绝，与 `src/` 中状态判断函数的返回值一致。
