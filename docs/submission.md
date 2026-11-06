@@ -1,14 +1,15 @@
 # 最终提交索引
 
-小组仓库地址：待填写
+小组仓库地址：https://github.com/Autumn-XY/iot-repair-group24
 
-选定语言：待填写
+选定语言：Python
 
 | 成员 | GitHub用户名 | 任务Issue链接 | 主要PR链接 | 评审记录链接 |
 | --- | --- | --- | --- | --- |
-| A | 待填写 | 待填写 | 待填写 | 待填写 |
-| B | 待填写 | 待填写 | 待填写 | 待填写 |
-| C | 待填写 | 待填写 | 待填写 | 待填写 |
+| A | Autumn-XY | #1 | #8 | https://github.com/Autumn-XY/iot-repair-group24/pull/8#pullrequestreview-5796526103 |
+| B | LHWY-322 | #2 | #6 | https://github.com/Autumn-XY/iot-repair-group24/pull/6#discussion_r4489723426 |
+| C | yep316 | #7 | #9 | https://github.com/Autumn-XY/iot-repair-group24/pull/9#issuecomment-6678662613 |
+| D | Xlb222333 | #3 | #4 | https://github.com/Autumn-XY/iot-repair-group24/pull/4#discussion_r4489604984 |
 
 ## 最终复核
 main下载ZIP后运行的实际结果：待填写。
