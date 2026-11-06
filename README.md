@@ -30,8 +30,6 @@ D负责docs/acceptance.md中的验收清单和从main下载后的复测记录。
 
 ## 运行
 Python：进入src/python，运行python test_status_rule.py。
-Java：进入src/java，先javac StatusRule.java StatusRuleTest.java，
-再java StatusRuleTest。
 
 起始函数尚未实现，预期2项FAIL、2项PASS、退出码1。
 完成函数后，规定4项测试应全部PASS、退出码0。
