@@ -29,10 +29,8 @@ D负责docs/acceptance.md中的验收清单和从main下载后的复测记录。
 四个主要PR合并后，由A另开分支整理docs/submission.md。
 
 ## 运行
-Python：进入src/python，运行python test_status_rule.py。
-
-起始函数尚未实现，预期2项FAIL、2项PASS、退出码1。
-完成函数后，规定4项测试应全部PASS、退出码0。
+Python：进入src/python，运行 python test_status_rule.py。
+当前函数已实现，规定4项测试全部PASS，退出码0。
 不要修改测试预期来获得通过，也不提交.class或__pycache__。
 
 ## 协作
