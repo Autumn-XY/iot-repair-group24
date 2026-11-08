@@ -59,5 +59,5 @@ T02 PASS: PROCESSING -> COMPLETED, expected=True, actual=True
 T03 PASS: PENDING -> COMPLETED, expected=False, actual=False
 T04 PASS: COMPLETED -> PROCESSING, expected=False, actual=False
 Summary: 4/4 passed
-
+```
 结论：main 中代码与测试记录一致，规定 4 项全部通过；本次复测覆盖规定的 4 项场景，其他状态组合尚未全部执行。
