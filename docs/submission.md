@@ -6,10 +6,10 @@
 
 | 成员 | GitHub用户名 | 任务Issue链接 | 主要PR链接 | 评审记录链接 |
 | --- | --- | --- | --- | --- |
-| A | Autumn-XY | https://github.com/Autumn-XY/iot-repair-group24/issues/1 | https://github.com/Autumn-XY/iot-repair-group24/pull/8 | https://github.com/Autumn-XY/iot-repair-group24/pull/8#pullrequestreview-5796526103 |
-| B | LHWY-322 | https://github.com/Autumn-XY/iot-repair-group24/issues/2 | https://github.com/Autumn-XY/iot-repair-group24/pull/6 | https://github.com/Autumn-XY/iot-repair-group24/pull/6#pullrequestreview-5796547289 |
-| C | yep316 | https://github.com/Autumn-XY/iot-repair-group24/issues/7 | https://github.com/Autumn-XY/iot-repair-group24/pull/9 | https://github.com/Autumn-XY/iot-repair-group24/pull/9#pullrequestreview-5796483633 |
-| D | Xlb222333 | https://github.com/Autumn-XY/iot-repair-group24/issues/3 | https://github.com/Autumn-XY/iot-repair-group24/pull/4 | https://github.com/Autumn-XY/iot-repair-group24/pull/4#pullrequestreview-5796479482 |
+| A | Autumn-XY | https://github.com/Autumn-XY/iot-repair-group24/issues/1 | https://github.com/Autumn-XY/iot-repair-group24/pull/8 | https://github.com/Autumn-XY/iot-repair-group24/pull/6#pullrequestreview-5796547289 |
+| B | LHWY-322 | https://github.com/Autumn-XY/iot-repair-group24/issues/2 | https://github.com/Autumn-XY/iot-repair-group24/pull/6 | https://github.com/Autumn-XY/iot-repair-group24/pull/9#pullrequestreview-5796483633 |
+| C | yep316 | https://github.com/Autumn-XY/iot-repair-group24/issues/7 | https://github.com/Autumn-XY/iot-repair-group24/pull/9 | https://github.com/Autumn-XY/iot-repair-group24/pull/4#pullrequestreview-5796479482 |
+| D | Xlb222333 | https://github.com/Autumn-XY/iot-repair-group24/issues/3 | https://github.com/Autumn-XY/iot-repair-group24/pull/4 |https://github.com/Autumn-XY/iot-repair-group24/pull/8#pullrequestreview-5796427323 |
 
 ## 最终复核
 main下载ZIP后运行的实际结果：
