@@ -34,16 +34,30 @@
 - [ ] main 为最终验收版本，docs/submission.md 链接可打开且内容齐全
 - [ ] 关联 Issue 均已关闭；各成员有本人 Issue、主要 PR 和一次真实评审记录
 
-## 二、main 复测记录（实验二，待 A/B/C 全部合并后填写）
+## 二、main 复测记录（实验二）
 
-- 复测版本来源：main 分支 Download ZIP，下载日期：待填
-- 选用语言：待填（全组统一）
-- 运行环境：待填
-- 执行命令：待填
-- 四项实际结果：待填
+- 复测版本来源：main 分支 Download ZIP
+- 下载日期：2026-11-06
+- 选用语言：Python 3 (Windows)
+- 运行环境：Windows + Python 3
+- 执行命令：python test_status_rule.py
+- 四项实际结果：
 
-```
-（粘贴本人终端真实输出，不复制预期值或C的记录）
-```
+| 编号 | 当前状态 | 目标状态 | 预期 | 实际 | 结论 |
+| --- | --- | --- | --- | --- | --- |
+| T01 | PENDING | PROCESSING | true | true | PASS |
+| T02 | PROCESSING | COMPLETED | true | true | PASS |
+| T03 | PENDING | COMPLETED | false | false | PASS |
+| T04 | COMPLETED | PROCESSING | false | false | PASS |
 
-结论：待填。本次复测覆盖规定的 4 项场景，其他状态组合尚未全部执行。
+真实终端输出：
+
+```text
+PS F:\1软件工程\实验 \iot-repair-starter\src\python> python test_status_rule.py
+T01 PASS: PENDING -> PROCESSING, expected=True, actual=True
+T02 PASS: PROCESSING -> COMPLETED, expected=True, actual=True
+T03 PASS: PENDING -> COMPLETED, expected=False, actual=False
+T04 PASS: COMPLETED -> PROCESSING, expected=False, actual=False
+Summary: 4/4 passed
+
+结论：main 中代码与测试记录一致，规定 4 项全部通过；本次复测覆盖规定的 4 项场景，其他状态组合尚未全部执行。
